@@ -1,0 +1,26 @@
+.nnst {
+  position: relative;
+  border-bottom: 1px dashed #3f52b1;
+  cursor: pointer; }
+
+.nnst-info {
+  position: fixed;
+  display: none;
+  z-index: 999;
+  background: white;
+  border-radius: 3px;
+  box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.5);
+  max-width: 500px; }
+  .nnst-info .nnst-content {
+    overflow-y: auto;
+    min-width: 200px;
+    max-height: 300px;
+    padding: 10px 20px; }
+  .nnst-info .nnst-tooltip-arrow {
+    position: absolute;
+    margin-left: 10px;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #fff; }
